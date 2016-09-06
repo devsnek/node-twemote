@@ -14,6 +14,13 @@ const getChannelCache = new Promise((resolve, reject) => {
   });
 });
 
+/**
+* @function twemote
+* @param {string} name the name of the emote
+* @param {string} [size='small'] the size of the emote (small, medium, or large)
+* @returns {string} url the url of the emote
+*/
+
 module.exports = (name, size = 'small') => { // es6 argument defaults are fucking amazing
   return new Promise((resolve, reject) => {
     Promise.all([getImageCache, getChannelCache]).then(res => {
