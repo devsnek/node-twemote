@@ -1,0 +1,16 @@
+{
+  "name": "twemote",
+  "version": "1.0.0",
+  "description": "easy way to grab twitch emotes",
+  "main": "twemote.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guscaplan/twemote.js.git"
+  },
+  "author": "Gus Caplan <me@guscaplan.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guscaplan/twemote.js/issues"
+  },
+  "homepage": "https://github.com/guscaplan/twemote.js#readme"
+}
